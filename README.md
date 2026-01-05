@@ -10,9 +10,12 @@ add  “Evolution” section that explains each version in 1–2 bullet points (
 *********************
 
 ### chatbot v1
-https://github.com/petrolmonkey/chatbot/tree/main/v1-echo-bot
-This folder shows the building blocks required to achieve my objective. I learned how to store chat history and display it using Streamlit's interface and how to obtain and load an API key to use an LLM.
+[chatbot v1](./v1-echo-bot)
+This folder shows the building blocks I needed to achieve my objective. When I started this project, I had no experience designing in HTML or CSS. It was a bit daunting. Then I discovered I could use Streamlit to create the front end using Python, a language I am familiar with. I learned how to accept user input, generate a pre-defined response and display it using Streamlit's library. 
 
 ### chatbot v2
-https://github.com/petrolmonkey/chatbot/tree/main/v2-doc-qa
+The first 2 examples.... how to obtain and load an API key to use an LLM.
+
+### chatbot v3
+[chatbot v3](./v3-doc-qa)
 This version converts several instruction manuals into a searchable data structure and makes it accessible through the chatbot interface. The predefined responses in the script were replaced with a query engine.
