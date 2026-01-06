@@ -3,7 +3,7 @@ from openai import OpenAI
 import streamlit as st
 import os
 
-st.title('Chatbot_LLM')
+st.title('Chatbot-LLM')
 
 # Set OpenAI API key from environment
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
