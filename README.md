@@ -18,13 +18,13 @@ Explains each version in 1–2 bullet points (what you learned, what you added, 
 **********************************************************************************************
  
 ### Chatbot v1 - How to use Streamlit
-[chatbot v1](./v1-echo-bot)
 I discovered I could use Python, a language I am familiar with, to create the front end with its Streamlit library. This part was about getting familiar with the librarie's methods; I learned how to accept user input, generate a pre-defined response and display it.
+* [chatbot v1](./v1-echo-bot) ➡️
 
 ### chatbot v2 - Connecting an LLM
-[chatbot v2](./v2-doc-qa)
 The first 2 examples.... how to obtain and load an API key to use an LLM.
+* [chatbot v2](./v2-doc-qa) ➡️
 
 ### chatbot v3
-[chatbot v3](./v3-doc-qa)
 This version converts several instruction manuals into a searchable data structure and makes it accessible through the chatbot interface. The predefined responses in the script were replaced with a query engine.
+* [chatbot v3](./v3-doc-qa) ➡️ 
