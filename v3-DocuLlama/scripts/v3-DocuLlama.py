@@ -3,19 +3,9 @@ import streamlit as st
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 
 # Load path of manuals
-# script_dir = os.path.dirname(__file__)
 project_dir = os.path.dirname(os.getcwd())
 data_dir = os.path.join(project_dir, 'data')
-
-
-print(f"project_dir: {project_dir}")
-print(f"data_dir: {data_dir}")
-print(f"exists: {os.path.exists(data_dir)}")
-
-if not os.path.exists(data_dir):
-    raise FileNotFoundError(f"Data directory not found: {data_dir}")
-
-    
+  
 # Streamlit decorator 
 @st.cache_resource
 # Load and cache the index
