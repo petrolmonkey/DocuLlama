@@ -17,4 +17,4 @@ One way to streamline the process was to use a Large Language Model (LLM) to loc
 ### DocuLlama v3
 * Embed manuals and create index.
 * Connect questions to index with a query engine.
-* [DocuLlama v3](./v3-doc-qa) ➡️ 
+* [DocuLlama v3](./v3-DocuLlama) ➡️ 
