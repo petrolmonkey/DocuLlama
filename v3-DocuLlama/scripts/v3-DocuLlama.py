@@ -5,14 +5,18 @@ from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 # Load path of manuals
 script_dir = os.path.dirname(__file__)
 project_dir = os.path.dirname(script_dir)
-manuals_dir = os.path.join(project_dir, 'manuals')
+data_dir = os.path.join(project_dir, 'data')
+
+# Verify path exists and print for debug
+print(f"Loading from: {data_dir}")
+if not os.path.exists(data_dir):
+    raise FileNotFoundError(f"Data directory not found: {data_dir}")
 
 # Streamlit decorator 
 @st.cache_resource
-
 # Load and cache the index
 def load_index():
-    documents = SimpleDirectoryReader(manuals_dir).load_data()
+    documents = SimpleDirectoryReader(input_dir=manuals_dir).load_data()
     index = VectorStoreIndex.from_documents(documents)
     return index.as_query_engine(similarity_top_k=5)
 
