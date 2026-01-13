@@ -13,4 +13,8 @@ A chatbot that answers questions about my PDF documents using the OpenAI LLM and
 - **OpenAI GPT**: Response generation  
 - **Python 3.13.9
 
+## Quick Start
+1. Clone Repo `git clone https://github.com/petrolmonkey/DocuLlama.git`
+2. Goto `cd docullama/v3-docullama/scripts`
+3. Run `python v3-docullama.py`
 <img width="430" height="520" alt="Screenshot 2025-12-16 at 10 31 24 AM" src="https://github.com/user-attachments/assets/841c5cdc-00b1-4472-90de-cea574930a85" />
