@@ -12,7 +12,7 @@ One way to streamline the process was to use a Large Language Model (LLM) to loc
 ### DocuLlama v2
 * Obtain and load an API key.
 * Change response from a static one to dynamic LLM stream.
-* [DocuLlama v2](./v2-doc-qa) ➡️
+* [DocuLlama v2](./v2-chatbot-LLM) ➡️
 
 ### DocuLlama v3
 * Embed manuals and create index.
